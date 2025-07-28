@@ -1,0 +1,131 @@
+/* Estilo para o corpo da página */
+body {
+    margin: 0; /* Remove margens padrão do corpo */
+    padding: 0; /* Remove preenchimentos padrão do corpo */
+    background-image: url('campoDW.jpg'); /* URL da imagem de fundo */
+    background-size: cover; /* Cobrir toda a área do corpo */
+    background-position: center; /* Centralizar a imagem */
+    background-repeat: no-repeat; /* Não repetir a imagem */    
+    height: 100vh; /* Altura do corpo igual a 100% da altura da viewport */
+    overflow-x: hidden; /* Oculta a barra de rolagem horizontal */
+}
+/*Estilo para o container da página*/
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000080;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 27%;
+    color: white;
+}
+.container img {
+    width: 150px; /* Largura desejada para a logo */
+    height: auto; /* Altura ajustada automaticamente para manter a proporção */
+    float: left; /* Flutua a imagem para a esquerda */
+    margin-right: 20px; /* Adiciona uma margem à direita para separar a imagem do texto */
+    margin-left: -10px;
+}
+.container p  {
+    text-align: right; /* Alinha o texto à direita */
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:  18px;
+}
+.container a  {
+    text-align: right; /* Alinha o texto à direita */
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:  18px;
+    color: #32CD32;
+    text-decoration: none;
+    cursor: pointer;
+}
+.container a:hover  {
+    color: #ffffff;
+}
+.box {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:  15px;
+    text-align: left;
+    height: 450px;
+
+}
+.inputBox {
+    position: relative;
+}
+.inputs {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+.labelInput {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+.inputs:focus ~ .labelInput,
+.inputs:valid ~ .labelInput {
+    top: -20px;
+    font-size: 15px;
+    color: #1E90FF;
+}
+.fa-eye-slash {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(-50%, -100%);
+    cursor: pointer;
+}
+.fa-eye {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(-50%, -100%);
+    cursor: pointer;
+}
+
+#errorUsername {
+    background-color: #FA8072;
+    color: #FF0000;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 3px;
+    display: none;
+}
+#errorEmail {
+    background-color: #FA8072;
+    color: #FF0000;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 3px;
+    display: none;
+}
+#errorPassword {
+    background-color: #FA8072;
+    color: #FF0000;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 3px;
+    display: none;
+}
+#errorConfirmPassword {
+    background-color: #FA8072;
+    color: #FF0000;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 3px;
+    display: none;
+}
+#submit {
+    text-align: center;
+    
+}
