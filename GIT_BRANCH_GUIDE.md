@@ -23,10 +23,10 @@ Confira em qual branch você está trabalhando com o comando:
 git branch
 ```
 
-A branch atual estará marcada com um `*`. Caso não esteja na branch `PlajadorFinanceiroMatComp`, altere para ela usando:
+A branch atual estará marcada com um `*`. Caso não esteja na branch `AluguelDeQuadras`, altere para ela usando:
 
 ```bash
-git checkout PlajadorFinanceiroMatComp
+git checkout AluguelDeQuadras
 ```
 
 ---
@@ -36,7 +36,7 @@ git checkout PlajadorFinanceiroMatComp
 Para garantir que sua branch está sincronizada com o repositório remoto, rode:
 
 ```bash
-git pull origin PlajadorFinanceiroMatComp
+git pull origin AluguelDeQuadras
 ```
 
 ---
@@ -80,8 +80,8 @@ git push -u origin nova-feature
 ## Resumo dos comandos principais
 
 ```bash
-git checkout PlajadorFinanceiroMatComp
-git pull origin PlajadorFinanceiroMatComp
+git checkout AluguelDeQuadras
+git pull origin AluguelDeQuadras
 git checkout -b nome-da-nova-branch
 git push -u origin nome-da-nova-branch
 ```
